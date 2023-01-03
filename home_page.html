@@ -20,18 +20,44 @@
                 <span class="emp-text emp-payroll">PAYROLL</span>
             </div>
         </div>
-
-        <div class="main-content">
-            <!--UC2-->
-            <div class="header-content">
-                <div class="emp-detail-text">
-                    Employee Details<div class="emp-count"></div>
-                </div>
-                <a href="EmployeePayrollApp.html" class="add-button">
-                    <img src="D:/Testing/add-24px.svg" alt="">Add Users</a>
-            </div>
-        </div>
     </header>
+    <div class="main-content">
+        <!--UC2-->
+        <div class="header-content">
+            <div class="emp-detail-text" style="font-size: 20px;">
+                Employee Details<div class="emp-count"></div>
+            </div>
+            <a href="EmployeePayrollApp.html" class="add-button">
+                <img src="D:/Testing/add-24px.svg" alt="">Add Users</a>
+        </div><!--header content-->
+    </div>
+    <table id="display" class="table">
+        <!--UC3-->
+        <tr>
+            <th>Profile</th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Department</th>
+            <th>Salary</th>
+            <th>Start Date</th>
+            <th>Actions</th>
+        </tr>
+        <tr>
+            <td><img class="profile" alt="" src="D:/Testing/ph5.png"></td>
+            <td>Vivek Gujale</td>
+            <td>Male</td>
+            <td>
+                <div class="dept-label">Cloud DevOps</div>
+                <div class="dept-label">Engineer</div>
+            </td>
+            <td>700000</td>
+            <td>9 July 2020</td>
+            <td>
+                <img id="1" onclick="remove(this)" alt="delete" src="D:/Testing/delete-black-18dp.svg">
+                <img id="1" onclick="update(this)" alt="edit" src="D:/Testing/create-black-18dp.svg">
+            </td>
+        </tr>
+    </table>
 </body>
 
 </html>
