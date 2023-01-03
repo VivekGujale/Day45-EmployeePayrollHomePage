@@ -274,4 +274,12 @@ select {
         flex-direction: column-reverse;
         align-items: flex-start;
     }
+
+    .emp-detail-text {
+        padding-left: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        size: 10px;
+        padding-right: 5px;
+    }
 }
